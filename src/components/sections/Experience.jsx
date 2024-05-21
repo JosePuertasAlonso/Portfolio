@@ -21,7 +21,7 @@ const Experience = () => {
               endDate != null ? new Date(endDate).getFullYear() : "Actual";
 
             return (
-              <li>
+              <li key={name}>
                 <article>
                   <header>
                     <div>
@@ -34,11 +34,11 @@ const Experience = () => {
                     </div>
 
                     <div>
-                      <time datetime={startDate} data-title={startDate}>
+                      <time dateTime={startDate} data-title={startDate}>
                         {startYear}
                       </time>
                       {" - "}
-                      <time datetime={endDate} data-title={endDate}>
+                      <time dateTime={endDate} data-title={endDate}>
                         {endYear}
                       </time>
                     </div>

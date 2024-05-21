@@ -63,6 +63,7 @@ const Intro = () => {
                 title={`Visitar el perfil de ${name} en ${network}`}
                 target="_blank"
                 rel="noopener noreferrer"
+                key={network}
               >
                <Icon /> 
               </a>
