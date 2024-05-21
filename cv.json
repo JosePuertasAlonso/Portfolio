@@ -1,0 +1,242 @@
+{
+  "basics": {
+    "name": "José Puertas Alonso",
+    "label": "Ingeniero Informático especializado en Ingeniería del Software",
+    "image": "/foto.webp",
+    "email": "pepepuertasalonso4@gmail.com",
+    "phone": "+34 654801224",
+    "url": "",
+    "summary": "Soy José Puertas Alonso, un ingeniero informático especializado en ingeniería del software. Vivo en Granada, España. Mi formación y experiencia se centran en el desarrollo fullstack, aunque tengo una especial inclinación por el frontend. Mi enfoque abarca desde la creación de interfaces hasta la implementación de funcionalidades en el backend. En mi carrera, he tenido la oportunidad de trabajar con una variedad de tecnologías y lenguajes, lo que me ha permitido desarrollar una visión integral del proceso de desarrollo de software. Disfruto trabajando en equipo, aprendiendo nuevas herramientas y metodologías, con el objetivo de crecer profesionalmente.",
+    "location": {
+      "address": "",
+      "postalCode": "18110",
+      "city": "Las Gabias (Granada)",
+      "countryCode": "ES",
+      "region": "España"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Pepe Puertas",
+        "url": "https://www.linkedin.com/in/pepe-puertas/"
+      },
+      {
+        "network": "X",
+        "username": "Pepepuertas4",
+        "url": "https://x.com/Pepepuertas4"
+      },
+      {
+        "network": "Github",
+        "username": "JosePuertasAlonso",
+        "url": "https://github.com/JosePuertasAlonso"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Trainingym",
+      "position": "Ingeniero de software júnior (Contrato en prácticas)",
+      "url": "",
+      "startDate": "01-02-2023",
+      "endDate": "11-04-2023",
+      "summary": "Trabajé en el departamento de Quality Assurance desarrollando pruebas unitarias con las herramientas Appium, Robotframework, Selenium, Pycharm y Python para las aplicaciones web y móvil de la empresa comprobando las distintas secciones y funcionalidades.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "MetaEnlace Sistemas de Información",
+      "position": "Desarrollador full stack",
+      "url": "",
+      "startDate": "04-01-2024",
+      "endDate": null,
+      "summary": "Me encuentro trabajando como desarrollador full stack en la empresa Metaenlace.",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad de Almería",
+      "url": "https://www.ual.es/",
+      "area": "Ingeniería Informática",
+      "studyType": "Grado Universitario",
+      "startDate": "01-10-2019",
+      "endDate": "01-07-2023",
+      "score": "7.56",
+      "courses": []
+    },
+    {
+      "institution": "Universidad de Málaga",
+      "url": "https://www.uma.es/",
+      "area": "Máster en Ingeniería del Software e Inteligencia Artificial",
+      "studyType": "Máster Universitario",
+      "startDate": "01-10-23",
+      "endDate": null,
+      "score": null,
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Fundamentals of Accelerated Computing with CUDA C/C++",
+      "date": "25-11-2023",
+      "issuer": "Nvidia",
+      "url": "https://courses.nvidia.com/certificates/5618ca2d819c44c5b200e80f7c142509/"
+    },
+    {
+      "name": "Fundamentals of Deep Learning",
+      "date": "25-11-2023",
+      "issuer": "Nvidia",
+      "url": "https://courses.nvidia.com/certificates/281437089d2d43bda1a0514d0dc5261f/"
+    },
+    {
+      "name": "B2 First - Score 167",
+      "date": "08-07-2023",
+      "issuer": "Cambridge English Language Assessment",
+      "url": null
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "Java",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend"
+      ]
+    },
+    {
+      "name": "SQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Medio",
+      "keywords": ["Control de Versiones", "Colaboración"]
+    },
+    {
+      "name": "React",
+      "level": "Medio",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Competencia básica profesional"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "mars.codes",
+      "isActive": true,
+      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "highlights": ["Elige tu propia aventura", "En desarrollo"],
+      "url": "https://mars.codes"
+    },
+    {
+      "name": "AdventJS",
+      "isActive": true,
+      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "highlights": [
+        "+1 millón de visitas",
+        "Multidioma",
+        "JavaScript & TypeScript"
+      ],
+      "url": "https://adventjs.dev"
+    },
+    {
+      "name": "Codember",
+      "isActive": true,
+      "description": "Juego interactivo de programación con retos y secretos",
+      "highlights": ["+2000 usuarios activos", "Retos para cualquier lenguaje"],
+      "url": "https://codember.dev"
+    },
+    {
+      "name": "codi.link",
+      "isActive": true,
+      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "highlights": ["100k visitas al mes", "Desarrollado por la comunidad"],
+      "url": "https://codi.link",
+      "github": "https://github.com/midudev/codi.link"
+    },
+    {
+      "name": "Pruebas Técnicas",
+      "isActive": true,
+      "description": "Lista de pruebas técnicas de empresas para practicar programación",
+      "highlights": ["100% gratuito", "+500 soluciones de la comunidad"],
+      "url": "https://pruebastecnicas.com",
+      "github": "https://github.com/midudev/pruebas-tecnicas"
+    },
+    {
+      "name": "miduConf",
+      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
+      "highlights": ["+15k tickets repartidos", "+50k espectadores en directo"],
+      "url": "https://miduconf.com"
+    }
+  ]
+}
