@@ -1,14 +1,14 @@
 export const react = () => {
   return (
     <svg
-      width="16"
-      height="16"
-      viewBox="0 0 24 24"
-      stroke-width="2"
-      stroke="currentColor"
-      fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+    width="16"
+    height="16"
+    viewBox="0 0 24 24"
+    strokeWidth="2"
+    stroke="currentColor"
+    fill="none"
+    strokeLinecap="round"
+    strokeLinejoin="round"
     >
       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
       <path d="M6.306 8.711c-2.602 .723 -4.306 1.926 -4.306 3.289c0 2.21 4.477 4 10 4c.773 0 1.526 -.035 2.248 -.102"></path>

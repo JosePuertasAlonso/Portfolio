@@ -94,3 +94,57 @@ footer span {
     animation-name: none;
   }
 }
+
+.custom-modal-content {
+  max-width: 600px; /* Adjust the width */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  outline: none;
+  border-radius: 10px; 
+  padding: 1.6rem;
+  border: 2px solid #000000;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.dialog-details {
+  margin: 1.5rem 0;
+  padding: 0 1rem;
+
+}
+
+.dialog-aptitudes{
+  margin: 1.5rem 0;
+  padding: 0 1rem;
+}
+
+.dialog-li{
+  border-radius: 5px;
+  padding: 5px;
+  background-color:rgb(212, 212, 212) 
+}
+.dialog-cabecera{
+  display: flex;
+  justify-content: space-between;
+}
+
+.dialog-close{
+  cursor: pointer;
+  color: red;
+  font-size: 1.5rem;
+}
+
+.proyectos{
+  transition: all 0.3s ease;
+}
+
+.proyectos:hover{
+  cursor: pointer;
+  transform: scale(1.02); 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  
+}

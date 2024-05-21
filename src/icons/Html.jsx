@@ -4,11 +4,11 @@ export const Html = () => {
         width="16"
         height="16"
         viewBox="0 0 24 24"
-        stroke-width="2"
+        strokeWidth="2"
         stroke="currentColor"
         fill="none"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       >
         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
         <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z"></path>

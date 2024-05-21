@@ -36,7 +36,7 @@
     {
       "name": "Trainingym",
       "position": "Ingeniero de software júnior (Contrato en prácticas)",
-      "url": "",
+      "url": "https://trainingym.com/",
       "startDate": "01-02-2023",
       "endDate": "11-04-2023",
       "summary": "Trabajé en el departamento de Quality Assurance desarrollando pruebas unitarias con las herramientas Appium, Robotframework, Selenium, Pycharm y Python para las aplicaciones web y móvil de la empresa comprobando las distintas secciones y funcionalidades.",
@@ -45,7 +45,7 @@
     {
       "name": "MetaEnlace Sistemas de Información",
       "position": "Desarrollador full stack",
-      "url": "",
+      "url": "https://metaenlace.com/",
       "startDate": "04-01-2024",
       "endDate": null,
       "summary": "Me encuentro trabajando como desarrollador full stack en la empresa Metaenlace.",
@@ -197,7 +197,8 @@
       "description": "Aplicación web que muestra el tiempo actual y la previsión para los próximos días en cualquier ciudad del mundo.",
       "highlights": ["Angular", "SpringBoot", "PostgreSQL", "HTML", "CSS", "WebScrapping"],
       "url": null,
-      "github": "https://github.com/JosePuertasAlonso/myWeather"
+      "github": "https://github.com/JosePuertasAlonso/myWeather",
+      "details":"Aplicación web desarrollada con Angular. También se han utilizado otras tecnologías como Spring Boot y PostgreSQL para el backend y HTML, CSS y Typescript para el desarrollo del frontend. En la aplicación se realizaron llamadas a una API además de realizar la técnica web scrapping software para extraer información de otros sitios web, MyWeather es una aplicacion que hace uso de una API para mostrar el tiempo en distintas localizaciones del mundo de manera dinamica ademas de otros mas factores como las coordenadas, la calidad del aire... Se puede iniciar sesion en ella y darse de alta, lo cual permitirá registrar las ciudades que se deseen como favoritas."
     }
   ]
 }

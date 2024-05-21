@@ -3,7 +3,7 @@ export const Java = () => {
     <svg
       stroke="currentColor"
       fill="currentColor"
-      stroke-width="0"
+      strokeWidth="0"
       viewBox="0 0 384 512"
       height="16"
       width="16"

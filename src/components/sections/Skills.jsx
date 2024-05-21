@@ -28,7 +28,7 @@ const Skills = () => {
           const Icon = SKILLS_ICONS[iconName];
 
           return (
-            <li className="li-skills">
+            <li className="li-skills" key={name}>
               {Icon && <Icon />} <span>{name}</span>
             </li>
           );
