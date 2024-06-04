@@ -4,7 +4,11 @@ ul {
   gap: 1rem;
   margin-inline: -16px;
 }
-
+li{
+  border: #d1d1d1 solid 1px;
+  border-radius: 10px;
+  padding: 0.7em;
+}
 article {
   border-radius: 8px;
   border: 1px solid #f2f2f2;
