@@ -27,7 +27,11 @@ const Projects = () => {
           const { url, description, highlights, name, github, details } =
             project;
           return (
-            <li key={name} onClick={() => openModal(project)} className="proyectos">
+            <li
+              key={name}
+              onClick={() => openModal(project)}
+              className="proyectos"
+            >
               <article>
                 <header>
                   <h3>
@@ -61,13 +65,24 @@ const Projects = () => {
           isOpen={modalIsOpen}
           onRequestClose={closeModal}
           contentLabel="Project Details"
-          className="custom-modal-content"
+          className={`custom-modal-content ${modalIsOpen ? "" : "closed"}`}
         >
           <div className="dialog-cabecera">
             <h1>{selectedProject.name}</h1>
             <MdClose className="dialog-close" onClick={closeModal} />
           </div>
           <p className="dialog-details">{selectedProject.details}</p>
+          <h2>
+            Enlace al proyecto:
+            <a href={selectedProject.github} 
+               style={{ 
+                fontSize: "0.85rem", 
+                marginLeft:"10px",
+                textDecoration: "underline",
+                }}>
+              {selectedProject.github}
+            </a>
+          </h2>
           <h2>Aptitudes</h2>
           <ul className="dialog-aptitudes">
             {selectedProject.highlights.map((highlight) => (
