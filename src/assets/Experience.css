@@ -8,6 +8,7 @@ ul {
   li{
     border: #d1d1d1 solid 1px;
     border-radius: 10px;
+    padding: 0.5em;
   }
 
   article h3 {
@@ -33,6 +34,7 @@ ul {
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 4px;
+    gap: 4px;
   }
 
   time {
