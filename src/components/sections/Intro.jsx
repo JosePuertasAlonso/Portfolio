@@ -6,11 +6,13 @@ import { Phone } from "../../icons/Phone";
 import { Github } from "../../icons/Github";
 import { LinkedIn } from "../../icons/LinkedIn";
 import { X } from "../../icons/X";
+import image from "../../icons/foto.webp";
 import "../../assets/Intro.css";
 
 const Intro = () => {
-  const { name, label, image, location, profiles, phone, email } = basics;
+  const { name, label, location, profiles, phone, email } = basics;
   const { city, region } = location;
+  
 
   const SOCIAL_ICONS = {
     Github,
