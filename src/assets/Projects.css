@@ -77,7 +77,7 @@ footer span {
   }
 }
 
-@media (width <= 700px) {
+@media (max-width: 700px) {
   ul {
     margin-inline: 0px;
   }

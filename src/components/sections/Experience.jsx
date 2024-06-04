@@ -1,10 +1,20 @@
 import Section from "../Section";
-import { work } from "../../../cv";
 import '../../assets/Experience.css';
+import { useTranslation } from "react-i18next";
 
 const Experience = () => {
+
+  const { t, i18n } = useTranslation();
+  const work = t('work', { returnObjects: true });
+
+  const formatDate = (date) => {
+    const lang = i18n.language;
+    const options = { month: 'long', year: 'numeric' };
+    return new Date(date).toLocaleDateString(lang, options);
+  }
+
   return (
-    <Section title="Experiencia laboral">
+    <Section title={t("sections.experience")}>
       <ul>
         {work.map(
           ({
@@ -16,9 +26,8 @@ const Experience = () => {
             highlights,
             url,
           }) => {
-            const startYear = new Date(startDate).getFullYear();
-            const endYear =
-              endDate != null ? new Date(endDate).getFullYear() : "Actual";
+            const startFormatted = formatDate(startDate);
+            const endFormatted = endDate ? formatDate(endDate) : (i18n.language === 'es' ? t("actual") : t("current"));
 
             return (
               <li key={name}>
@@ -35,11 +44,11 @@ const Experience = () => {
 
                     <div>
                       <time dateTime={startDate} data-title={startDate}>
-                        {startYear}
+                        {startFormatted}
                       </time>
                       {" - "}
                       <time dateTime={endDate} data-title={endDate}>
-                        {endYear}
+                        {endFormatted}
                       </time>
                     </div>
                   </header>

@@ -37,8 +37,8 @@
       "name": "Trainingym",
       "position": "Ingeniero de software júnior (Contrato en prácticas)",
       "url": "https://trainingym.com/",
-      "startDate": "01-02-2023",
-      "endDate": "11-04-2023",
+      "startDate": "02-01-2023",
+      "endDate": "04-11-2023",
       "summary": "Trabajé en el departamento de Quality Assurance desarrollando pruebas unitarias con las herramientas Appium, Robotframework, Selenium, Pycharm y Python para las aplicaciones web y móvil de la empresa comprobando las distintas secciones y funcionalidades.",
       "highlights": ["Started the company"]
     },
@@ -46,9 +46,9 @@
       "name": "MetaEnlace Sistemas de Información",
       "position": "Desarrollador full stack",
       "url": "https://metaenlace.com/",
-      "startDate": "04-01-2024",
+      "startDate": "01-04-2024",
       "endDate": null,
-      "summary": "Me encuentro trabajando como desarrollador full stack en la empresa Metaenlace.",
+      "summary": "Actualmente ocupo el cargo de desarrollador Full Stack en Metaenlace, donde me desempeño en el desarrollo de aplicaciones para el Sistema Murciano de Salud.",
       "highlights": ["Started the company"]
     }
   ],
@@ -69,8 +69,8 @@
       "url": "https://www.ual.es/",
       "area": "Ingeniería Informática",
       "studyType": "Grado Universitario",
-      "startDate": "01-10-2019",
-      "endDate": "01-07-2023",
+      "startDate": "10-01-2019",
+      "endDate": "07-01-2023",
       "score": "7.56",
       "courses": []
     },
@@ -79,7 +79,7 @@
       "url": "https://www.uma.es/",
       "area": "Máster en Ingeniería del Software e Inteligencia Artificial",
       "studyType": "Máster Universitario",
-      "startDate": "01-10-23",
+      "startDate": "10-01-23",
       "endDate": null,
       "score": null,
       "courses": []
@@ -200,5 +200,15 @@
       "github": "https://github.com/JosePuertasAlonso/myWeather",
       "details":"Aplicación web desarrollada con Angular. También se han utilizado otras tecnologías como Spring Boot y PostgreSQL para el backend y HTML, CSS y Typescript para el desarrollo del frontend. En la aplicación se realizaron llamadas a una API además de realizar la técnica web scrapping software para extraer información de otros sitios web, MyWeather es una aplicacion que hace uso de una API para mostrar el tiempo en distintas localizaciones del mundo de manera dinamica ademas de otros mas factores como las coordenadas, la calidad del aire... Se puede iniciar sesion en ella y darse de alta, lo cual permitirá registrar las ciudades que se deseen como favoritas."
     }
-  ]
+  ],
+  "sections":{
+    "about": "Acerca de mí",
+    "experience": "Experiencia Laboral",
+    "education": "Educación",
+    "skills": "Habilidades",
+    "projects": "Proyectos"
+  },
+  "others":{
+    "projectLink": "Enlace al proyecto"
+  }
 }

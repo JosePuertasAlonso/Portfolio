@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Section from "../Section";
 import "../../assets/Projects.css";
-import { projects } from "../../../cv";
 import { Github } from "../../icons/Github";
 import Modal from "react-modal";
 import { MdClose } from "react-icons/md";
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -20,8 +20,11 @@ const Projects = () => {
     setModalIsOpen(false);
   };
 
+  const { t } = useTranslation();
+  const projects = t("projects", { returnObjects: true });
+
   return (
-    <Section title="Proyectos">
+    <Section title={t("sections.projects")}>
       <ul>
         {projects.map((project) => {
           const { url, description, highlights, name, github, details } =
@@ -73,17 +76,20 @@ const Projects = () => {
           </div>
           <p className="dialog-details">{selectedProject.details}</p>
           <h2>
-            Enlace al proyecto:
-            <a href={selectedProject.github} 
-               style={{ 
-                fontSize: "0.85rem", 
-                marginLeft:"10px",
+            {t("others.projectLink")}:
+            <a
+              href={selectedProject.github}
+              target="_blank"
+              style={{
+                fontSize: "0.85rem",
+                marginLeft: "10px",
                 textDecoration: "underline",
-                }}>
+              }}
+            >
               {selectedProject.github}
             </a>
           </h2>
-          <h2>Aptitudes</h2>
+          <h2>{t("sections.skills")}</h2>
           <ul className="dialog-aptitudes">
             {selectedProject.highlights.map((highlight) => (
               <li key={highlight} className="dialog-li">

@@ -2,7 +2,7 @@ import '../assets/Section.css'
 const Section = ({ title, children }) => {
     return (
     <section>
-        {title && <h2>{title}</h2>}
+        <h2 className='title'>{title}</h2>
         {children}
     </section>)
     }

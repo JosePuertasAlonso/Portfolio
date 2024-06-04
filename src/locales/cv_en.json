@@ -1,0 +1,215 @@
+{
+    "basics": {
+      "name": "José Puertas Alonso",
+      "label": "Software Engineer specialized in Software Engineering",
+      "image": "/foto.webp",
+      "email": "pepepuertasalonso4@gmail.com",
+      "phone": "+34 654801224",
+      "url": "",
+      "summary": "I am José Puertas Alonso, a software engineer specialized in software engineering. I live in Granada, Spain. My education and experience are focused on full-stack development, although I have a special inclination for frontend. My approach encompasses everything from creating interfaces to implementing backend functionalities. Throughout my career, I have had the opportunity to work with a variety of technologies and languages, allowing me to develop a comprehensive view of the software development process. I enjoy working in a team, learning new tools and methodologies, with the goal of professional growth.",
+      "location": {
+        "address": "",
+        "postalCode": "18110",
+        "city": "Las Gabias (Granada)",
+        "countryCode": "ES",
+        "region": "Spain"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "Pepe Puertas",
+          "url": "https://www.linkedin.com/in/pepe-puertas/"
+        },
+        {
+          "network": "X",
+          "username": "Pepepuertas4",
+          "url": "https://x.com/Pepepuertas4"
+        },
+        {
+          "network": "Github",
+          "username": "JosePuertasAlonso",
+          "url": "https://github.com/JosePuertasAlonso"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Trainingym",
+        "position": "Junior Software Engineer (Internship)",
+        "url": "https://trainingym.com/",
+        "startDate": "02-01-2023",
+        "endDate": "04-11-2023",
+        "summary": "I worked in the Quality Assurance department developing unit tests with tools such as Appium, Robotframework, Selenium, Pycharm, and Python for the company's web and mobile applications, verifying various sections and functionalities.",
+        "highlights": ["Started the company"]
+      },
+      {
+        "name": "MetaEnlace Sistemas de Información",
+        "position": "Full Stack Developer",
+        "url": "https://metaenlace.com/",
+        "startDate": "01-04-2024",
+        "endDate": null,
+        "summary": "I am currently employed as a Full Stack Developer at Metaenlace, where I am involved in the development of applications for the Murcian Health System.",
+        "highlights": ["Started the company"]
+      }
+    ],
+    "volunteer": [
+      {
+        "organization": "Organization",
+        "position": "Volunteer",
+        "url": "https://organization.com/",
+        "startDate": "01-01-2012",
+        "endDate": "01-01-2013",
+        "summary": "Description…",
+        "highlights": ["Awarded 'Volunteer of the Month'"]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Almería",
+        "url": "https://www.ual.es/",
+        "area": "Computer Engineering",
+        "studyType": "Bachelor's Degree",
+        "startDate": "10-01-2019",
+        "endDate": "07-01-2023",
+        "score": "7.56",
+        "courses": []
+      },
+      {
+        "institution": "University of Málaga",
+        "url": "https://www.uma.es/",
+        "area": "Master in Software Engineering and Artificial Intelligence",
+        "studyType": "Master's Degree",
+        "startDate": "10-01-2023",
+        "endDate": null,
+        "score": null,
+        "courses": []
+      }
+    ],
+    "awards": [
+      {
+        "title": "Award",
+        "date": "11-01-2014",
+        "awarder": "Company",
+        "summary": "There is no spoon."
+      }
+    ],
+    "certificates": [
+      {
+        "name": "Fundamentals of Accelerated Computing with CUDA C/C++",
+        "date": "11-25-2023",
+        "issuer": "Nvidia",
+        "url": "https://courses.nvidia.com/certificates/5618ca2d819c44c5b200e80f7c142509/"
+      },
+      {
+        "name": "Fundamentals of Deep Learning",
+        "date": "11-25-2023",
+        "issuer": "Nvidia",
+        "url": "https://courses.nvidia.com/certificates/281437089d2d43bda1a0514d0dc5261f/"
+      },
+      {
+        "name": "B2 First - Score 167",
+        "date": "07-08-2023",
+        "issuer": "Cambridge English Language Assessment",
+        "url": null
+      }
+    ],
+    "publications": [
+      {
+        "name": "Publication",
+        "publisher": "Company",
+        "releaseDate": "10-01-2014",
+        "url": "https://publication.com",
+        "summary": "Description…"
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML",
+        "level": "Advanced",
+        "keywords": ["Web Development", "Frontend"]
+      },
+      {
+        "name": "CSS",
+        "level": "Advanced",
+        "keywords": ["Web Development", "Frontend", "Responsive Design"]
+      },
+      {
+        "name": "Java",
+        "level": "Advanced",
+        "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Intermediate",
+        "keywords": [
+          "Web Development",
+          "Frontend",
+          "Backend"
+        ]
+      },
+      {
+        "name": "SQL",
+        "level": "Advanced",
+        "keywords": [
+          "Databases",
+          "SQL",
+          "Data Storage",
+          "Backend"
+        ]
+      },
+      {
+        "name": "Git",
+        "level": "Intermediate",
+        "keywords": ["Version Control", "Collaboration"]
+      },
+      {
+        "name": "React",
+        "level": "Intermediate",
+        "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "fluency": "Native"
+      },
+      {
+        "language": "English",
+        "fluency": "Basic professional proficiency"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Wildlife",
+        "keywords": ["Ferrets", "Unicorns"]
+      }
+    ],
+    "references": [
+      {
+        "name": "Jane Doe",
+        "reference": "Reference…"
+      }
+    ],
+    "projects": [
+      {
+        "name": "MyWeather",
+        "isActive": true,
+        "description": "Web application that shows the current weather and forecast for the next few days in any city in the world.",
+        "highlights": ["Angular", "SpringBoot", "PostgreSQL", "HTML", "CSS", "Web Scraping"],
+        "url": null,
+        "github": "https://github.com/JosePuertasAlonso/myWeather",
+        "details": "Web application developed with Angular. Other technologies such as Spring Boot and PostgreSQL were used for the backend, and HTML, CSS, and TypeScript for the frontend development. The application makes API calls and uses web scraping to extract information from other websites. MyWeather is an application that uses an API to dynamically display the weather in different locations around the world, along with other factors such as coordinates and air quality. Users can sign in and register, allowing them to save their favorite cities."
+      }
+    ],
+    "sections":{
+      "about": "About Me",
+      "experience": "Work Experience",
+      "education": "Education",
+      "skills": "Skills",
+      "projects": "Projects"
+    },
+    "others":{
+      "projectLink": "Link to project"
+    }
+  }
+  

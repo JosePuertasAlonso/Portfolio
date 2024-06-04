@@ -1,5 +1,4 @@
 import Section from "../Section";
-import { basics } from "../../../cv";
 import { WorldMap } from "../../icons/WorldMap";
 import { Mail } from "../../icons/Mail";
 import { Phone } from "../../icons/Phone";
@@ -8,9 +7,13 @@ import { LinkedIn } from "../../icons/LinkedIn";
 import { X } from "../../icons/X";
 import image from "../../icons/foto.webp";
 import "../../assets/Intro.css";
+import { useTranslation } from 'react-i18next';
+
 
 const Intro = () => {
-  const { name, label, location, profiles, phone, email } = basics;
+  const { t } = useTranslation();
+
+  const { name, label, location, profiles, phone, email } = t('basics', { returnObjects: true });
   const { city, region } = location;
   
 
@@ -19,6 +22,7 @@ const Intro = () => {
     LinkedIn,
     X,
   }
+
 
   const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
   const linkedUrl = linkedInfo?.url;

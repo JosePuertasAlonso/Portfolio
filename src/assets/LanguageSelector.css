@@ -1,0 +1,33 @@
+.language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    gap: 10px;
+    margin-bottom: 2em;
+}
+.flag{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+button{
+  display: flex;
+  align-items: center;
+  padding: 10px 5px;
+  width: 10em;
+  justify-content: center;
+  border: 0.5px solid rgb(209, 209, 209);
+  cursor: pointer;
+  gap: 1em;
+}
+
+
+button:hover{
+  background-color: rgb(209, 209, 209);
+}
+.selected{
+  background-color: #e2e2e2;
+  border: 0.5px solid black;
+
+}

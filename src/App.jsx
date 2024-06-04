@@ -5,8 +5,11 @@ import Experience from "./components/sections/Experience";
 import Education from "./components/sections/Education";
 import Projects from "./components/sections/Projects";
 import Skills from "./components/sections/Skills";
+import { useTranslation } from 'react-i18next';
+import LanguageSelector from './components/LanguageSelector';
 
 function App() {
+  const { t } = useTranslation();
 
   const styles = {
     main: {
@@ -20,6 +23,7 @@ function App() {
   return (
 
     <main>
+      <LanguageSelector />
       <Intro />
       <About />
       <Experience />

@@ -1,15 +1,13 @@
-
-import { basics } from "../../../cv";
+import { useTranslation } from "react-i18next";
 import Section from "../Section";
 
-const {summary} = basics;
-
 const About = () => {
-    return (
-        <Section title="Acerca de mí">
-            <p>{summary}</p>
-        </Section>
-    )
-}
+  const { t } = useTranslation();
+  return (
+    <Section title={t("sections.about")}>
+      <p>{t("basics.summary")}</p>
+    </Section>
+  );
+};
 
 export default About;
