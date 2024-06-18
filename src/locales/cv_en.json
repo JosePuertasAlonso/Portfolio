@@ -199,7 +199,17 @@
         "url": null,
         "github": "https://github.com/JosePuertasAlonso/myWeather",
         "details": "Web application developed with Angular. Other technologies such as Spring Boot and PostgreSQL were used for the backend, and HTML, CSS, and TypeScript for the frontend development. The application makes API calls and uses web scraping to extract information from other websites. MyWeather is an application that uses an API to dynamically display the weather in different locations around the world, along with other factors such as coordinates and air quality. Users can sign in and register, allowing them to save their favorite cities."
+      },
+      {
+        "name": "Memory Game",
+        "isActive": true,
+        "description": "MemoryGame is a fun memory game based on Pokémon. It offers various difficulty levels and an exciting time trial mode.",
+        "highlights": ["React", "HTML", "CSS", "JavaScript"],
+        "url": "https://josepuertasalonso.github.io/MemoryGame/",
+        "github": "https://github.com/JosePuertasAlonso/MemoryGame",
+        "details": "MemoryGame is an exciting memory game based on Pokémon. Designed to challenge and entertain players of all ages, this game offers different difficulties that test your ability to remember and match Pokémon cards. Additionally, it features a time trial mode that adds an extra level of challenge, where players must find all Pokémon pairs before time runs out. With colorful graphics and addictive gameplay, MemoryGame is perfect for Pokémon fans and those who enjoy memory and mental agility games. Dare to test your memory and speed in the world of Pokémon!"
       }
+      
     ],
     "sections":{
       "about": "About Me",

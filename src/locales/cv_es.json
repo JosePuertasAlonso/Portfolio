@@ -199,8 +199,18 @@
       "url": null,
       "github": "https://github.com/JosePuertasAlonso/myWeather",
       "details":"Aplicación web desarrollada con Angular. También se han utilizado otras tecnologías como Spring Boot y PostgreSQL para el backend y HTML, CSS y Typescript para el desarrollo del frontend. En la aplicación se realizaron llamadas a una API además de realizar la técnica web scrapping software para extraer información de otros sitios web, MyWeather es una aplicacion que hace uso de una API para mostrar el tiempo en distintas localizaciones del mundo de manera dinamica ademas de otros mas factores como las coordenadas, la calidad del aire... Se puede iniciar sesion en ella y darse de alta, lo cual permitirá registrar las ciudades que se deseen como favoritas."
+    },
+    {
+      "name": "Juego de Memoria",
+      "isActive": true,
+      "description": "MemoryGame es un divertido juego de memoria basado en Pokémon. Ofrece distintos niveles de dificultad y un emocionante modo contrarreloj. ",
+      "highlights": ["React", "HTML", "CSS", "JavaScript"],
+      "url": "https://josepuertasalonso.github.io/MemoryGame/",
+      "github": "https://github.com/JosePuertasAlonso/MemoryGame",
+      "details":"MemoryGame es un emocionante juego de memoria basado en Pokémon. Diseñado para desafiar y entretener a jugadores de todas las edades, este juego ofrece distintas dificultades que ponen a prueba tu capacidad de recordar y emparejar cartas de Pokémon. Además, cuenta con un modo contrarreloj que agrega un nivel extra de desafío, donde los jugadores deben encontrar todas las parejas de Pokémon antes de que se acabe el tiempo. Con gráficos coloridos y una jugabilidad adictiva, MemoryGame es perfecto para los fans de Pokémon y para aquellos que disfrutan de los juegos de memoria y agilidad mental. ¡Atrévete a poner a prueba tu memoria y velocidad en el mundo de Pokémon!"
     }
   ],
+  
   "sections":{
     "about": "Acerca de mí",
     "experience": "Experiencia Laboral",
