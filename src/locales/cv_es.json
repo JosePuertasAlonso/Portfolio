@@ -40,7 +40,8 @@
       "startDate": "02-01-2023",
       "endDate": "04-11-2023",
       "summary": "Trabajé en el departamento de Quality Assurance desarrollando pruebas unitarias con las herramientas Appium, Robotframework, Selenium, Pycharm y Python para las aplicaciones web y móvil de la empresa comprobando las distintas secciones y funcionalidades.",
-      "highlights": ["Started the company"]
+      "highlights": ["Started the company"],
+      "metaname": "trainingym"
     },
     {
       "name": "MetaEnlace Sistemas de Información",
@@ -49,7 +50,8 @@
       "startDate": "01-04-2024",
       "endDate": null,
       "summary": "Actualmente ocupo el cargo de desarrollador Full Stack en Metaenlace, donde me desempeño en el desarrollo de aplicaciones para el Sistema Murciano de Salud.",
-      "highlights": ["Started the company"]
+      "highlights": ["Started the company"],
+      "metaname": "metaenlace"
     }
   ],
   "volunteer": [
@@ -72,7 +74,8 @@
       "startDate": "10-01-2019",
       "endDate": "07-01-2023",
       "score": "7.56",
-      "courses": []
+      "courses": [],
+      "metaname": "ual"
     },
     {
       "institution": "Universidad de Málaga",
@@ -81,8 +84,20 @@
       "studyType": "Máster Universitario",
       "startDate": "10-01-23",
       "endDate": "09-23-2024",
+      "score": "8.32",
+      "courses": [],
+      "metaname": "uma"
+    },
+    {
+      "institution": "UNIR",
+      "url": "https://www.unir.net/",
+      "area": "Máster de Formación Permanente en Full Stack Developer",
+      "studyType": "Máster de Formación Permanente",
+      "startDate": "11-19-24",
+      "endDate": null,
       "score": null,
-      "courses": []
+      "courses": [],
+      "metaname": "unir"
     }
   ],
   "awards": [
@@ -141,11 +156,7 @@
     {
       "name": "JavaScript",
       "level": "Medio",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "Backend"]
     },
     {
       "name": "SQL",
@@ -195,10 +206,17 @@
       "name": "MyWeather",
       "isActive": true,
       "description": "Aplicación web que muestra el tiempo actual y la previsión para los próximos días en cualquier ciudad del mundo.",
-      "highlights": ["Angular", "SpringBoot", "PostgreSQL", "HTML", "CSS", "WebScrapping"],
+      "highlights": [
+        "Angular",
+        "SpringBoot",
+        "PostgreSQL",
+        "HTML",
+        "CSS",
+        "WebScrapping"
+      ],
       "url": null,
       "github": "https://github.com/JosePuertasAlonso/myWeather",
-      "details":"Aplicación web desarrollada con Angular. También se han utilizado otras tecnologías como Spring Boot y PostgreSQL para el backend y HTML, CSS y Typescript para el desarrollo del frontend. En la aplicación se realizaron llamadas a una API además de realizar la técnica web scrapping software para extraer información de otros sitios web, MyWeather es una aplicacion que hace uso de una API para mostrar el tiempo en distintas localizaciones del mundo de manera dinamica ademas de otros mas factores como las coordenadas, la calidad del aire... Se puede iniciar sesion en ella y darse de alta, lo cual permitirá registrar las ciudades que se deseen como favoritas."
+      "details": "Aplicación web desarrollada con Angular. También se han utilizado otras tecnologías como Spring Boot y PostgreSQL para el backend y HTML, CSS y Typescript para el desarrollo del frontend. En la aplicación se realizaron llamadas a una API además de realizar la técnica web scrapping software para extraer información de otros sitios web, MyWeather es una aplicacion que hace uso de una API para mostrar el tiempo en distintas localizaciones del mundo de manera dinamica ademas de otros mas factores como las coordenadas, la calidad del aire... Se puede iniciar sesion en ella y darse de alta, lo cual permitirá registrar las ciudades que se deseen como favoritas."
     },
     {
       "name": "Juego de Memoria",
@@ -207,18 +225,27 @@
       "highlights": ["React", "HTML", "CSS", "JavaScript"],
       "url": "https://josepuertasalonso.github.io/MemoryGame/",
       "github": "https://github.com/JosePuertasAlonso/MemoryGame",
-      "details":"MemoryGame es un emocionante juego de memoria basado en Pokémon. Diseñado para desafiar y entretener a jugadores de todas las edades, este juego ofrece distintas dificultades que ponen a prueba tu capacidad de recordar y emparejar cartas de Pokémon. Además, cuenta con un modo contrarreloj que agrega un nivel extra de desafío, donde los jugadores deben encontrar todas las parejas de Pokémon antes de que se acabe el tiempo. Con gráficos coloridos y una jugabilidad adictiva, MemoryGame es perfecto para los fans de Pokémon y para aquellos que disfrutan de los juegos de memoria y agilidad mental. ¡Atrévete a poner a prueba tu memoria y velocidad en el mundo de Pokémon!"
+      "details": "MemoryGame es un emocionante juego de memoria basado en Pokémon. Diseñado para desafiar y entretener a jugadores de todas las edades, este juego ofrece distintas dificultades que ponen a prueba tu capacidad de recordar y emparejar cartas de Pokémon. Además, cuenta con un modo contrarreloj que agrega un nivel extra de desafío, donde los jugadores deben encontrar todas las parejas de Pokémon antes de que se acabe el tiempo. Con gráficos coloridos y una jugabilidad adictiva, MemoryGame es perfecto para los fans de Pokémon y para aquellos que disfrutan de los juegos de memoria y agilidad mental. ¡Atrévete a poner a prueba tu memoria y velocidad en el mundo de Pokémon!"
+    },
+    {
+      "name": "Predicción de Notas UMA",
+      "isActive": true,
+      "description": "Trabajo de Fin de Máster centrado en el análisis del rendimiento académico de estudiantes mediante técnicas de minería de datos.",
+      "highlights": ["React", "HTML", "CSS", "JavaScript", "Clustering", "SQL"],
+      "url": "https://drive.google.com/file/d/1PqUf1lU4cLyl_F_OapzzTVDHqrVmaR3C/view",
+      "github": "https://github.com/JosePuertasAlonso/Grades_Prediction_UMA",
+      "details": "Mi Trabajo de Fin de Máster, titulado Predicción de Notas UMA, se centró en el análisis del rendimiento académico de estudiantes mediante técnicas avanzadas de minería de datos. Desarrollé una aplicación web interactiva que permite la visualización y predicción de calificaciones, garantizando el cumplimiento de la normativa de protección de datos. \nUtilicé R con Shiny para el análisis exploratorio de datos, incluyendo estadísticas descriptivas y visualizaciones gráficas. Posteriormente, implementé un modelo de clustering con K-means para identificar patrones de rendimiento. Finalmente, desarrollé una aplicación completa en React y Node.js con Express.js que integra tanto el análisis exploratorio como la predicción de calificaciones, facilitando la toma de decisiones informadas a través de gráficos, histogramas y herramientas predictivas."
     }
   ],
-  
-  "sections":{
+
+  "sections": {
     "about": "Acerca de mí",
     "experience": "Experiencia Laboral",
     "education": "Educación",
     "skills": "Habilidades",
     "projects": "Proyectos"
   },
-  "others":{
+  "others": {
     "projectLink": "Enlace al proyecto"
   }
 }

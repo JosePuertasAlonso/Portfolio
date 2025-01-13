@@ -1,10 +1,10 @@
 ul {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   margin-inline: -16px;
 }
-li{
+li {
   border: #d1d1d1 solid 1px;
   border-radius: 10px;
   padding: 0.7em;
@@ -16,10 +16,6 @@ article {
   flex-direction: column;
   padding: 16px;
   height: 100%;
-}
-
-article header {
-  flex: 1;
 }
 
 article h3 {
@@ -107,7 +103,7 @@ footer span {
   padding: 20px;
   border-radius: 4px;
   outline: none;
-  border-radius: 10px; 
+  border-radius: 10px;
   padding: 1.6rem;
   border: 2px solid #000000;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
@@ -117,39 +113,37 @@ footer span {
 .dialog-details {
   margin: 1.5rem 0;
   padding: 0 1rem;
-
 }
 
-.dialog-aptitudes{
+.dialog-aptitudes {
   margin: 1.5rem 0;
   padding: 0 1rem;
 }
 
-.dialog-li{
+.dialog-li {
   border-radius: 5px;
   padding: 5px;
-  background-color:rgb(212, 212, 212) 
+  background-color: rgb(212, 212, 212);
 }
-.dialog-cabecera{
+.dialog-cabecera {
   display: flex;
   justify-content: space-between;
 }
 
-.dialog-close{
+.dialog-close {
   cursor: pointer;
   color: red;
   font-size: 1.5rem;
 }
 
-.proyectos{
+.proyectos {
   transition: all 0.3s ease;
 }
 
-.proyectos:hover{
+.proyectos:hover {
   cursor: pointer;
-  transform: scale(1.02); 
+  transform: scale(1.02);
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  
 }
 
 @keyframes fadeIn {
@@ -178,7 +172,6 @@ footer span {
   border-radius: 16px;
   text-decoration: none;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-
 }
 
 .deploy-button svg {
