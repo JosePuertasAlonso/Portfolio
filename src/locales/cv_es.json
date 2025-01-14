@@ -140,27 +140,27 @@
   "skills": [
     {
       "name": "HTML",
-      "level": "Avanzado",
+      "level": "Medio-Avanzado",
       "keywords": ["Desarrollo Web", "Frontend"]
     },
     {
       "name": "CSS",
-      "level": "Avanzado",
+      "level": "Medio-Avanzado",
       "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
     },
     {
       "name": "Java",
-      "level": "Avanzado",
+      "level": "Medio-Avanzado",
       "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
     },
     {
       "name": "JavaScript",
-      "level": "Medio",
+      "level": "Básico-Medio",
       "keywords": ["Desarrollo Web", "Frontend", "Backend"]
     },
     {
       "name": "SQL",
-      "level": "Avanzado",
+      "level": "Medio-Avanzado",
       "keywords": [
         "Bases de Datos",
         "SQL",
